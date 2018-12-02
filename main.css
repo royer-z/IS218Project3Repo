@@ -1,0 +1,99 @@
+body{
+    background-color: #99873D;
+}
+
+input[type=text], input[type=password], input[type=date], textarea {
+    background-color: #FF9A00;
+    color: #FFFFFF;
+    width: 15em;
+    margin-bottom: .5em;
+    padding: .25em;
+    border: none;
+    font-family: "Bookman Old Style", "Arial", "Times New Roman", sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #FFFFFF;
+    font-family: "Bookman Old Style", "Arial", "Times New Roman", sans-serif;
+    font-weight: bold;
+}
+
+label {
+    color: #FFFFFF;
+    font-family: "Bookman Old Style", "Arial", "Times New Roman", sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.formContainer {
+    text-align: center;
+}
+
+.formBox {
+    background-color: #40DEFF;
+    display: inline-block;
+    margin-top: 5em;
+    width: 60em;
+    border: 5px double #FFFFFF;
+}
+
+.formHeading {
+    color: #FFFFFF;
+    font-family: "Bookman Old Style", "Arial", "Times New Roman", sans-serif;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.formButton {
+    background-color: #99873D;
+    color: #FFFFFF;
+    font-family: "Bookman Old Style", "Arial", "Times New Roman", sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 10px;
+    border: none;
+    height: 2.5em;
+    font-size: 1.5em;
+}
+
+.questionHeading {
+    color: #cd6c00;
+    font-family: "Bookman Old Style", "Arial", "Times New Roman", sans-serif;
+    margin: 0px;
+    font-size: 1.5em;
+    margin-left: 1em;
+    float: left;
+}
+
+.questionContent {
+    color: #505050;
+    font-family: "Bookman Old Style", "Arial", "Times New Roman", sans-serif;
+    margin: 0px;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.errorMessage {
+    font-family: "Bookman Old Style", "Arial", "Times New Roman", sans-serif;
+    font-size: 1.5em;
+}
+
+.errorType {
+    color: red;
+}
+
+.errorDescription {
+    color: gray;
+}
+
+.whiteUnderline {
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+}
+
+#yourQuestions {
+    color: #cd6c00;
+    font-size: 1.75em;
+}
