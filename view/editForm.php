@@ -4,7 +4,7 @@
         <div class='formContainer'>
             <div class='formBox'>
                 <form action='index.php' method='post'>
-                    <h1 class='formHeading'>Edit question</h1>
+                    <h1 class='formHeading'>Edit the question!</h1>
                     <input type='text' name='questionName' value="<?php echo $question['title']; ?>"><br>
                     <textarea name='questionBody'><?php echo $question['body']; ?></textarea><br>
                     <textarea name='questionSkills'><?php echo $question['skills']; ?></textarea><br>

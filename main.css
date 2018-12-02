@@ -97,3 +97,18 @@ label {
     color: #cd6c00;
     font-size: 1.75em;
 }
+
+#header {
+    font-family: "Bookman Old Style", "Arial", "Times New Roman", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #cd6c00;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+}
+
+#footer {
+    font-family: "Bookman Old Style", "Arial", "Times New Roman", sans-serif;
+    font-size: 1em;
+    text-align: center;
+}

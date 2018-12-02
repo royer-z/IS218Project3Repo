@@ -9,5 +9,5 @@
 
 <body>
     <header>
-        <h1>Question System</h1>
+        <h1 id="header">Question System</h1>
     </header>
