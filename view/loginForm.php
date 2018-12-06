@@ -8,7 +8,11 @@
                     <input type="text" name="email" placeholder="Email"><br>
                     <input type="password" name="password" placeholder="Password"><br>
                     <input type="hidden" name="action" value="login">
-                    <input type="submit" class="formButton" value="Log in"><br>
+                    <input type="submit" class="formButton" value="Log in">
+                </form>
+                <form action="index.php" method="post">
+                    <input type="hidden" name="action" value="display_registration">
+                    <input type="submit" class="formButton" value="Register">
                 </form>
             </div>
         </div>
